@@ -18,7 +18,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78d8f0', end
 }
 
 
-a{ color: #f16529;}
+a{ color: #fff;}
 a:hover{ text-decoration:none;}
 p{ margin:0 0 15px 0;}
 .version{float: right; font-size: 11px;}
@@ -36,6 +36,15 @@ p{ margin:0 0 15px 0;}
 	text-shadow: none; 
 }
 .header nav{ text-align: right;}
+.social img{display: inline-block; top: 0; position: relative;}
+.social img:hover{top: -10px;}
+.social img, .social img:hover{
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-0-transition: all 0.3s linear;
+	transition: all 0.3s linear; 
+}
+
 .inside{ margin: 0 auto; width: 980px;}
 .content{
 	border-bottom: 1px solid rgba(256,256,256,0.2);
@@ -47,7 +56,8 @@ p{ margin:0 0 15px 0;}
 }
 .footer{ 
 	border-top: 1px solid rgba(0,0,0,0.1);
-	padding: 20px 0 0; 
+	padding: 20px 0 10px; 
 	text-align: center;
 }
 .footer address{font-size: 12px; font-style: inherit;}
+.footer a{color: rgba(256,256,256,0.8)}
