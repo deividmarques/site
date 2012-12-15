@@ -1,0 +1,53 @@
+
+* {margin: 0;padding: 0;}
+nav, aside, header, footer, article, section, figure {display: block;}
+fieldset, a img {border: none;}
+body{
+background: #78d8f0; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #78d8f0 0%, #0091bf 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#78d8f0), color-stop(100%,#0091bf)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #78d8f0 0%,#0091bf 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #78d8f0 0%,#0091bf 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #78d8f0 0%,#0091bf 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #78d8f0 0%,#0091bf 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78d8f0', endColorstr='#0091bf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	color: rgba(0,0,0,0.9);
+	font-family: 'Fjalla One', sans-serif;
+	font-size:16px;
+}
+
+
+a{ color: #f16529;}
+a:hover{ text-decoration:none;}
+p{ margin:0 0 15px 0;}
+.version{float: right; font-size: 11px;}
+.header h1{ 
+	color: #fff;
+	font-size: 80px;
+	text-align: center; 
+	text-transform: uppercase;
+	text-shadow: 0 4px 0px rgba(0,0,0,0.4);
+}
+.header .description{
+	color: rgba(0,0,0,0.5);
+	display: block;
+	font-size: 20px;
+	text-shadow: none; 
+}
+.header nav{ text-align: right;}
+.inside{ margin: 0 auto; width: 980px;}
+.content{
+	border-bottom: 1px solid rgba(256,256,256,0.2);
+	padding: 30px 0 50px;
+}
+.content img{
+ 	float: left; 
+ 	margin: 0 15px 10px 0;
+}
+.footer{ 
+	border-top: 1px solid rgba(0,0,0,0.1);
+	padding: 20px 0 0; 
+	text-align: center;
+}
+.footer address{font-size: 12px; font-style: inherit;}
