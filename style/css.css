@@ -14,17 +14,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78d8f0', end
 
 	color: rgba(0,0,0,0.9);
 	font-family: 'Fjalla One', sans-serif;
-	font-size:16px;
+	font-size: 62.5%;
 }
-
 
 a{ color: #fff;}
 a:hover{ text-decoration:none;}
-p{ margin:0 0 15px 0;}
-.version{float: right; font-size: 11px;}
+p{ margin:0 0 15px 0; font-size:1.6em;}
+.version{display: block; font-size: 1.1em; text-align: right;}
 .header h1{ 
 	color: #fff;
-	font-size: 80px;
+	font-size: 8.0em;
 	text-align: center; 
 	text-transform: uppercase;
 	text-shadow: 0 4px 0px rgba(0,0,0,0.4);
@@ -32,7 +31,7 @@ p{ margin:0 0 15px 0;}
 .header .description{
 	color: rgba(0,0,0,0.5);
 	display: block;
-	font-size: 20px;
+	font-size: 0.5em;
 	text-shadow: none; 
 }
 .header nav{ text-align: right;}
@@ -45,19 +44,30 @@ p{ margin:0 0 15px 0;}
 	transition: all 0.3s linear; 
 }
 
-.inside{ margin: 0 auto; width: 980px;}
+.inside{ margin: 0 auto; width: 90%;}
 .content{
 	border-bottom: 1px solid rgba(256,256,256,0.2);
 	padding: 30px 0 50px;
 }
 .content img{
  	float: left; 
- 	margin: 0 15px 10px 0;
+ 	margin: 0 0.8em 0.6em 0;
+ 	max-width: 100%;
 }
+
 .footer{ 
 	border-top: 1px solid rgba(0,0,0,0.1);
-	padding: 20px 0 10px; 
+	padding: 1.5em 0 0.8em; 
 	text-align: center;
 }
-.footer address{font-size: 12px; font-style: inherit;}
+.footer address{font-size: 1.2em; font-style: inherit;}
 .footer a{color: rgba(256,256,256,0.8)}
+@media (max-width: 480px){
+	.header h1{font-size: 4.0em;}
+	.header .description{
+		font-size: 0.4em;
+		margin-bottom: 1em;
+	}
+	.header nav{text-align: center;}
+	.content img{float: none; display: block; width: 250px; margin:0 auto 1.0em;}
+}
